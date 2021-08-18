@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    double a = 5.124;
+    double b = 6.214;
+    
+    char c;
+    scanf("%c",&c);
+    
+    switch(c){
+        
+    case 'a': printf("Sum is : %lf\n",a+b);
+              break;
+    
+    case 's': printf("Sum is : %lf\n",a-b);
+              break;
+    default : printf("defaut case- noaction\n");
+    }
+
+    return 0;
+}
